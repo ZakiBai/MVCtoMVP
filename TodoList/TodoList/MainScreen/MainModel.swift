@@ -15,12 +15,12 @@ enum MainModel {
 			case regularTask(RegularTask)
 			case importantTask(ImportantTask)
 		}
-	
+
 		struct RegularTask {
 			let title: String
 			let completed: Bool
 		}
-	
+
 		struct ImportantTask {
 			let title: String
 			let completed: Bool
